@@ -101,7 +101,7 @@ function ChatRoom() {
   }
 
   return (<>
-    <main className="lg:border-2 rounded-lg lg:h-[50vh] max-h-[50vh] w-[100vw] lg:w-[80vw] overflow-scroll scrollbar-hide">
+    <main className="lg:border-2 rounded-lg lg:h-[50vh] max-h-[50vh] w-[100vw] lg:w-[80vw] overflow-scroll scrollbar-hide p-5">
 
       {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
 
@@ -130,7 +130,7 @@ function ChatMessage(props) {
   return (
     <>
     <div className={`message ${messageClass}`}>
-      <div className="flex flex-row-reverse items-center gap-5 p-2">
+     <div className="flex items-center gap-5 p-2">
       <img className="w-10 rounded-full" src={photoURL} alt="👾" />
       <p className="p-4 rounded-3xl">{text}</p>
       </div>
