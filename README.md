@@ -1,3 +1,6 @@
+NO LONGER WORKS BECXAUSE OF FIREBASE RULES :_ DUE TO APP IN TEXT MODE RULES NEEDS TO BE SET FOR SECURITY ....
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
